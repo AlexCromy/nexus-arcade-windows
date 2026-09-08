@@ -1,6 +1,6 @@
 @echo off
-title Nexus Arcade - montar programa
-copy /b NexusArcade.zip.part-aa + NexusArcade.zip.part-ab + NexusArcade.zip.part-ac + NexusArcade.zip.part-ad + NexusArcade.zip.part-ae + NexusArcade.zip.part-af + NexusArcade.zip.part-ag + NexusArcade.zip.part-ah + NexusArcade.zip.part-ai + NexusArcade.zip.part-aj Nexus-Arcade-Windows-x64.zip
+chcp 65001 >nul
+copy /b NexusArcade.zip.part-00+NexusArcade.zip.part-01+NexusArcade.zip.part-02+NexusArcade.zip.part-03+NexusArcade.zip.part-04+NexusArcade.zip.part-05+NexusArcade.zip.part-06 NexusArcade.zip
 echo.
-echo Pronto! Extraia Nexus-Arcade-Windows-x64.zip e abra "Nexus Arcade.exe".
+echo Pronto! Extraia o NexusArcade.zip e abra "Nexus Arcade.exe".
 pause
